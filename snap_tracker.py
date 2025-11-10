@@ -4,7 +4,7 @@ import datetime
 
 # Configs (from GitHub Secrets)
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
-TARGET_DATES = os.getenv("TARGET_DATES", "2025-12-20").split(",")
+TARGET_DATES = os.getenv("TARGET_DATES", "2025-11-23").split(",")
 
 # You’ll need to inspect Eurostar Snap’s site for a real API endpoint
 # Below is a placeholder check simulating result availability
